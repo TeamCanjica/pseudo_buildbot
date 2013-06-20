@@ -9,7 +9,7 @@ LOG_DIR=logs
 BUILD_ROOT=`pwd`
 cd $BUILD_ROOT
 . build/envsetup.sh
-lunch $1
+lunch $LUNCH
 
 TARGET_VENDOR=$(echo $TARGET_PRODUCT | cut -f1 -d '_')
 
